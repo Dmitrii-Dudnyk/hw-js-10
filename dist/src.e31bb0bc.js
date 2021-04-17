@@ -2303,7 +2303,21 @@ var templateFunction = _handlebars.default.template({
           "column": 19
         }
       }
-    }) : helper)) + "\"\n      class=\"card__image\"\n    />\n    <div class=\"card__content\">\n      <h2 class=\"card__name\">Картофель, запеченный в мундире</h2>\n      <p class=\"card__price\">\n        <i class=\"material-icons\"> monetization_on </i>\n        " + alias4((helper = (helper = lookupProperty(helpers, "price") || (depth0 != null ? lookupProperty(depth0, "price") : depth0)) != null ? helper : alias2, _typeof(helper) === alias3 ? helper.call(alias1, {
+    }) : helper)) + "\"\n      class=\"card__image\"\n    />\n    <div class=\"card__content\">\n      <h2 class=\"card__name\">" + alias4((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : alias2, _typeof(helper) === alias3 ? helper.call(alias1, {
+      "name": "name",
+      "hash": {},
+      "data": data,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 29
+        },
+        "end": {
+          "line": 10,
+          "column": 37
+        }
+      }
+    }) : helper)) + "</h2>\n      <p class=\"card__price\">\n        <i class=\"material-icons\"> monetization_on </i>\n        " + alias4((helper = (helper = lookupProperty(helpers, "price") || (depth0 != null ? lookupProperty(depth0, "price") : depth0)) != null ? helper : alias2, _typeof(helper) === alias3 ? helper.call(alias1, {
       "name": "price",
       "hash": {},
       "data": data,
